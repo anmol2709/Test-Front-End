@@ -1,0 +1,61 @@
+  .bgimg{
+    background-image: url("grey.jpg");
+    background-size: cover;
+  }
+
+  .xl{
+    font-style: italic;
+    font-size: 140px;
+    font-weight: bold;
+    color:#680000 ;
+
+  }
+
+
+
+  .md{
+    font-size: 40px;
+    font-weight: bold;
+    color:#680000 ;
+
+  }
+
+.bld{
+  font-weight: bold;
+}
+
+.wht{
+    color:white;
+}
+
+.cnt{
+  text-align: center;
+}
+
+.gry{
+    color:#707070  ;
+}
+
+.lftmrg{
+    margin-left: 20%;
+  }
+
+.row.content {height: 570px}
+
+.sidenav {
+      background-color: black;
+      height: 100%;
+}
+
+.bdr{
+  border-bottom: 2px solid white
+}
+
+.icon{
+font-size:25px;
+padding:1%;
+}
+
+@media screen and (max-width: 767px) {
+      .row.content {height: auto;}
+    }
